@@ -1,0 +1,15 @@
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Bikers-Diary.Models.dll.config
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Bikers-Diary.Models.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Bikers-Diary.Models.pdb
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\EntityFramework.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\EntityFramework.xml
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\obj\Debug\Bikers-Diary.Models.csprojResolveAssemblyReference.cache
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\obj\Debug\Bikers-Diary.Models.csproj.CoreCompileInputs.cache
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\obj\Debug\Bikers-Diary.Models.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary.Models\obj\Debug\Bikers-Diary.Models.pdb
