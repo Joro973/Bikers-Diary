@@ -9,21 +9,26 @@
 
     public class DiaryData : IDiaryData
     {
-        private readonly DbContext dbContext;
+        private readonly DiaryDbContext dbContext;
 
         private readonly IDictionary<Type, object> repositories;
 
         private IUserStore<User> userStore;
 
-        public DiaryData(DbContext context)
+        public DiaryData(DiaryDbContext context)
         {
             this.dbContext = context;
             this.repositories = new Dictionary<Type, object>();
         }
 
-        public IRepository<User> users
+        public IRepository<User> Users
         {
             get { return this.GetRepository<User>(); }
+        }
+
+        public IRepository<Post> Posts
+        {
+            get { return this.GetRepository<Post>(); }
         }
 
         public IUserStore<User> UserStore

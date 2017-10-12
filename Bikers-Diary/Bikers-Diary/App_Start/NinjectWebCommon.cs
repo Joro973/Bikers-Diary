@@ -69,10 +69,10 @@ namespace Bikers_Diary.App_Start
         {
             kernel.Bind<IDiaryData>().To<DiaryData>()
                 .InRequestScope()
-                .WithConstructorArgument("context", p => new DbContext());
+                .WithConstructorArgument("context", p => new DiaryDbContext());
             kernel.Bind<IUserStore<User>>().To<UserStore<User>>()
                 .InRequestScope()
-                .WithConstructorArgument("context", kernel.Get<DbContext>());
+                .WithConstructorArgument("context", kernel.Get<DiaryDbContext>());
             kernel.Bind<IAuthenticationManager>()
                 .ToMethod<IAuthenticationManager>(context => HttpContext.Current.GetOwinContext().Authentication)
                 .InRequestScope();

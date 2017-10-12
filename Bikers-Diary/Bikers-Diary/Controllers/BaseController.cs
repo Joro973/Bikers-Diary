@@ -31,7 +31,7 @@ namespace Bikers_Diary.Controllers
             if (requestContext.HttpContext.User.Identity.IsAuthenticated)
             {
                 var username = requestContext.HttpContext.User.Identity.Name;
-                var user = this.Data.users.All().FirstOrDefault(u => u.UserName == username);
+                var user = this.Data.Users.All().FirstOrDefault(u => u.UserName == username);
                 this.UserProfile = user;
             }
 

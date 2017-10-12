@@ -135,3 +135,5 @@ C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary\bin\Bikers-Diary.Data.pdb
 C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary\bin\Bikers-Diary.Data.dll.config
 C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary\bin\Bikers-Diary.Models.pdb
 C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary\bin\Bikers-Diary.Models.dll.config
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary\bin\AutoMapper.dll
+C:\Users\Joro\source\repos\Bikers-Diary\Bikers-Diary\bin\AutoMapper.xml

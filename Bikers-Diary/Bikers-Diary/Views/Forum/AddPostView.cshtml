@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Bikers_Diary.Models.Post>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (@Html.BeginForm())
+{
+    <button type="submit">Add</button>
+}

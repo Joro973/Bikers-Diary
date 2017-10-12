@@ -6,6 +6,10 @@ namespace Bikers_Diary.Data
 
     public interface IDiaryData
     {
-        IRepository<User> users { get; }
+        IRepository<User> Users { get; }
+
+        IRepository<Post> Posts { get; }
+
+        void SaveChanges();
     }
 }
