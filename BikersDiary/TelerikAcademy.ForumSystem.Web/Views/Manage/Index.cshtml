@@ -1,0 +1,30 @@
+﻿@model TelerikAcademy.ForumSystem.Web.Models.IndexViewModel
+@{
+    ViewBag.Title = "Hello " + this.User.Identity.Name;
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Manager your account here.</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Password:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Change your password", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Create", "SetPassword")
+            }
+            ]
+        </dd>
+    </dl>
+</div>
+<div>
+    @*@Html.Partial("_PostsAndComments")*@
+</div>

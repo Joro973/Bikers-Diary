@@ -1,0 +1,24 @@
+﻿@using PagedList.Mvc
+@using TelerikAcademy.ForumSystem.Web.Models.Home
+@model PagedList.IPagedList<PostViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Forum</h2>
+<h3>Here you can discuss various topics with your fellow bikers!</h3>
+
+<div>
+@foreach (var post in Model)
+{
+    <div class="col-md-12">
+        @Html.ActionLink(@post.Title, "Details", "Forum", new { id = post.Id }, new { @class = "" })
+        <p>@post.Content</p>
+        <p>@post.PostedOn - @post.AuthorEmail</p>
+    </div>
+}
+</div>
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))

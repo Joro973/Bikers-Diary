@@ -1,0 +1,16 @@
+﻿
+@model  TelerikAcademy.ForumSystem.Web.Models.Home.PostViewModel
+
+<div class="col-cm-12">
+    <ul class="list-group">
+        @foreach (var comment in Model.Comments)
+        {
+            <li class="list-group-item">
+                <p>@comment.Content</p>
+                <br/>
+                <small>@comment.Author.UserName - @comment.CreatedOn</small>
+            </li>
+        }
+
+    </ul>
+</div>

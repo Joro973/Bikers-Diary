@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=3EF93B056200457BA2865FF46E119DCF/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=3EF93B056200457BA2865FF46E119DCF/SnapshotLocation/@EntryValue">C:\Users\Joro\AppData\Local\Temp\ssm.Hipegom.tmp</s:String>
+	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=3EF93B056200457BA2865FF46E119DCF/ProductVersion/@EntryValue">2017.1.3</s:String>
+	<s:Boolean x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=8BC11A7D1A9844ED880C333B165063EE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=8BC11A7D1A9844ED880C333B165063EE/ProductVersion/@EntryValue">2017.1.3</s:String>
+	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=8BC11A7D1A9844ED880C333B165063EE/SnapshotLocation/@EntryValue">C:\Users\Joro\AppData\Local\Temp\ssm.Hofyvod.tmp</s:String>
+	<s:Boolean x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=E573AE7D28374F98BCC35DE2D5F7BD2D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=E573AE7D28374F98BCC35DE2D5F7BD2D/ProductVersion/@EntryValue">2017.1.3</s:String>
+	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=E573AE7D28374F98BCC35DE2D5F7BD2D/SnapshotLocation/@EntryValue">C:\Users\Joro\AppData\Local\Temp\ssm.Bomapan.tmp</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,19 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<TelerikAcademy.ForumSystem.Data.Model.Comment>
+@{
+    ViewBag.Title = "MyComments";
+}
+
+<h2>All your comments:</h2>
+<ul class="list-group">
+    @foreach (var comment in Model)
+    {      
+        <li class="list-group-item">
+            <p>@comment.Content</p>
+        </li>      
+        <br/>
+    }
+</ul>
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("MyComments", new { page, UserName = this.User.Identity.Name }))
