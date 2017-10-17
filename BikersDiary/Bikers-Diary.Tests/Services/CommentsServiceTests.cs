@@ -1,12 +1,12 @@
 ﻿namespace Bikers_Diary.Tests.Services
 {
     using System;
-    using TelerikAcademy.ForumSystem.Services;
+    using BikersDiary.ForumSystem.Services;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
-    using TelerikAcademy.ForumSystem.Data.Model;
-    using TelerikAcademy.ForumSystem.Data.Repositories;
-    using TelerikAcademy.ForumSystem.Data.SaveContext;
+    using BikersDiary.ForumSystem.Data.Model;
+    using BikersDiary.ForumSystem.Data.Repositories;
+    using BikersDiary.ForumSystem.Data.SaveContext;
 
     [TestClass]
     public class CommentsServiceTests

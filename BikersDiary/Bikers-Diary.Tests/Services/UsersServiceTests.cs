@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using TelerikAcademy.ForumSystem.Data.Model;
-using TelerikAcademy.ForumSystem.Data.Repositories;
-using TelerikAcademy.ForumSystem.Data.SaveContext;
-using TelerikAcademy.ForumSystem.Services;
+using BikersDiary.ForumSystem.Data.Model;
+using BikersDiary.ForumSystem.Data.Repositories;
+using BikersDiary.ForumSystem.Data.SaveContext;
+using BikersDiary.ForumSystem.Services;
 
 namespace Bikers_Diary.Tests.Services
 {

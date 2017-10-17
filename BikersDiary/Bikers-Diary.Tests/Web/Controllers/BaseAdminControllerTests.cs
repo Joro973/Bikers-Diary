@@ -3,8 +3,8 @@
     using System;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
-    using TelerikAcademy.ForumSystem.Services;
-    using TelerikAcademy.ForumSystem.Web.Areas.Admin.Controllers;
+    using BikersDiary.ForumSystem.Services;
+    using BikersDiary.ForumSystem.Web.Areas.Admin.Controllers;
 
     [TestClass]
     public class BaseAdminControllerTests

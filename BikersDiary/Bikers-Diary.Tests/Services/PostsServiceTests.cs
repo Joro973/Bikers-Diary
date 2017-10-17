@@ -3,11 +3,11 @@
     using System;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
-    using TelerikAcademy.ForumSystem.Data;
-    using TelerikAcademy.ForumSystem.Data.Model;
-    using TelerikAcademy.ForumSystem.Data.Repositories;
-    using TelerikAcademy.ForumSystem.Data.SaveContext;
-    using TelerikAcademy.ForumSystem.Services;
+    using BikersDiary.ForumSystem.Data;
+    using BikersDiary.ForumSystem.Data.Model;
+    using BikersDiary.ForumSystem.Data.Repositories;
+    using BikersDiary.ForumSystem.Data.SaveContext;
+    using BikersDiary.ForumSystem.Services;
 
     [TestClass]
     public class PostsServiceTests

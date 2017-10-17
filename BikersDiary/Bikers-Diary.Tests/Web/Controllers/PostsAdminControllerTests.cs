@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using TelerikAcademy.ForumSystem.Data.Model;
-using TelerikAcademy.ForumSystem.Services;
-using TelerikAcademy.ForumSystem.Web.Areas.Admin.Controllers;
+using BikersDiary.ForumSystem.Data.Model;
+using BikersDiary.ForumSystem.Services;
+using BikersDiary.ForumSystem.Web.Areas.Admin.Controllers;
 using TestStack.FluentMVCTesting;
 
 namespace Bikers_Diary.Tests.Web.Controllers
@@ -44,7 +44,6 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 Content = "test controller",
                 Author = user,
                 AuthorId = user.Id,
-                Identifier = 0,
                 Comments = new List<Comment>()
             };
 
@@ -90,7 +89,6 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 Content = "test controller",
                 Author = user,
                 AuthorId = user.Id,
-                Identifier = 0,
                 Comments = new List<Comment>()
             };
 
@@ -138,7 +136,6 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 Content = "test controller",
                 Author = user,
                 AuthorId = user.Id,
-                Identifier = 0,
                 Comments = new List<Comment>()
             };
 

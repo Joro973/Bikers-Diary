@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using TelerikAcademy.ForumSystem.Services;
-using TelerikAcademy.ForumSystem.Web.Controllers;
-using TelerikAcademy.ForumSystem.Web.Models.Home;
+using BikersDiary.ForumSystem.Services;
+using BikersDiary.ForumSystem.Web.Controllers;
+using BikersDiary.ForumSystem.Web.Models.Home;
 using TestStack.FluentMVCTesting;
 
 namespace Bikers_Diary.Tests.Web.Controllers

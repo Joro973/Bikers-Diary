@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using PagedList;
-using TelerikAcademy.ForumSystem.Data.Model;
-using TelerikAcademy.ForumSystem.Services;
-using TelerikAcademy.ForumSystem.Web.Controllers;
-using TelerikAcademy.ForumSystem.Web.Models.Home;
+using BikersDiary.ForumSystem.Data.Model;
+using BikersDiary.ForumSystem.Services;
+using BikersDiary.ForumSystem.Web.Controllers;
+using BikersDiary.ForumSystem.Web.Models.Home;
 using TestStack.FluentMVCTesting;
 
 namespace Bikers_Diary.Tests.Web.Controllers
@@ -104,7 +104,6 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 Content = "test controller",
                 Author = user,
                 AuthorId = user.Id,
-                Identifier = 0,
                 Comments = new List<Comment>()
             };
 
@@ -112,7 +111,6 @@ namespace Bikers_Diary.Tests.Web.Controllers
             {
                 Title = post.Title,
                 Content = post.Content,
-                Identifier = post.Identifier,
                 AuthorEmail = post.Author.Email,
                 //PostedOn = post.CreatedOn.Value,
                 Comments = post.Comments
@@ -130,7 +128,6 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 {
                     Assert.AreEqual(post.Title, vm.Title);
                     Assert.AreEqual(post.Content, vm.Content);
-                    Assert.AreEqual(post.Identifier, vm.Identifier);
                 });
         }
 

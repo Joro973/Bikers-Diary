@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using TelerikAcademy.ForumSystem.Data.Model;
-using TelerikAcademy.ForumSystem.Web.Controllers;
+using BikersDiary.ForumSystem.Data.Model;
+using BikersDiary.ForumSystem.Web.Controllers;
 using TestStack.FluentMVCTesting;
 
 namespace Bikers_Diary.Tests.Web.Controllers
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
-    using TelerikAcademy.ForumSystem.Services;
+    using BikersDiary.ForumSystem.Services;
 
     [TestClass]
     public class ProfileControllerTests

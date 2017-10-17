@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using TelerikAcademy.ForumSystem.Web.Controllers;
+using BikersDiary.ForumSystem.Web.Controllers;
 
 namespace Bikers_Diary.Tests.Web.Controllers
 {

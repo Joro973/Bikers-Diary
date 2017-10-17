@@ -114,21 +114,21 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\TelerikAcademy.ForumSystem.Data.Model\TelerikAcademy.ForumSystem.Data.Model.csproj">
+    <ProjectReference Include="..\BikersDiary.Data.Model\BikersDiary.Data.Model.csproj">
       <Project>{93c24150-b0cd-4ee4-a83c-cd765299275d}</Project>
-      <Name>TelerikAcademy.ForumSystem.Data.Model</Name>
+      <Name>BikersDiary.Data.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TelerikAcademy.ForumSystem.Data\TelerikAcademy.ForumSystem.Data.csproj">
+    <ProjectReference Include="..\BikersDiary.Data\BikersDiary.Data.csproj">
       <Project>{2d1b95eb-01df-4478-9f22-d8659d13e77b}</Project>
-      <Name>TelerikAcademy.ForumSystem.Data</Name>
+      <Name>BikersDiary.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TelerikAcademy.ForumSystem.Services\TelerikAcademy.ForumSystem.Services.csproj">
+    <ProjectReference Include="..\BikersDiary.Services\BikersDiary.Services.csproj">
       <Project>{fb051718-9592-4803-ab3d-7c975d93ebd3}</Project>
-      <Name>TelerikAcademy.ForumSystem.Services</Name>
+      <Name>BikersDiary.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TelerikAcademy.ForumSystem.Web\TelerikAcademy.ForumSystem.Web.csproj">
+    <ProjectReference Include="..\BikersDiary.Web\BikersDiary.Web.csproj">
       <Project>{6856c21d-0966-4ed5-a4ed-5ecf6ca60e06}</Project>
-      <Name>TelerikAcademy.ForumSystem.Web</Name>
+      <Name>BikersDiary.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
