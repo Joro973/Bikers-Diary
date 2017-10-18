@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using PagedList;
@@ -140,6 +141,33 @@ namespace Bikers_Diary.Tests.Web.Controllers
             //Act & Assert
             forumController.WithCallTo(f => f.AddPost())
                 .ShouldRenderDefaultView();
+        }
+
+        [TestMethod]
+        public void FilteredPosts_ShouldRenderCorrectView_WhenSearchTermIsEmpty()
+        {
+            //Arrange
+            ForumController forumController = new ForumController(postsServiceMock.Object,
+                commentsServiceMock.Object, usersServiceMock.Object);
+
+            //Act & Assert
+            forumController.WithCallTo(f => f.FilteredPosts(""))
+                .ShouldRenderDefaultView();
+        }
+
+        [TestMethod]
+        public void FilteredPosts_ShouldRenderCorrectView_WhenSearchTermIsNotEmpty()
+        {
+            //Arrange
+            ForumController forumController = new ForumController(postsServiceMock.Object,
+                commentsServiceMock.Object, usersServiceMock.Object);
+
+            IQueryable<Post> testPosts = Enumerable.Empty<Post>().AsQueryable();
+            postsServiceMock.Setup(p => p.GetPostByTitleOrAuthor("testSearch")).Returns(testPosts);
+
+            //Act & Assert
+            forumController.WithCallTo(f => f.FilteredPosts("testSearch"))
+                .ShouldRenderPartialView("_FilteredPostsPartial");
         }
     }
 }

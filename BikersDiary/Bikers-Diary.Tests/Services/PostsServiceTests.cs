@@ -1,4 +1,6 @@
-﻿namespace Bikers_Diary.Tests.Services
+﻿using System.Linq;
+
+namespace Bikers_Diary.Tests.Services
 {
     using System;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -292,5 +294,6 @@
             //Assert
             this.postsRepoMock.Verify(p => p.All, Times.Once);
         }
+
     }
 }

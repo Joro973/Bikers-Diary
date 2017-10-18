@@ -114,5 +114,26 @@
                 commentsService.GetCurrentUserComments(null)
             );
         }
+
+        [TestMethod]
+        public void Add_ShouldCallCommit_WhenValidUserAndComment()
+        {
+            //Arrange
+            var commentsService = new CommentsService(commentsRepoMock.Object, contextMock.Object);
+            var user = new User();
+            var comment = new Comment();
+
+            //Act
+            commentsService.AddComment(comment);
+
+            //Assert
+            this.contextMock.Verify(c => c.Commit(), Times.Once);
+        }
+
+        [TestMethod]
+        public void GetCurrentUserComments_ShouldReturnCorrectType()
+        {
+            var commentsService = new CommentsService(commentsRepoMock.Object, contextMock.Object);
+        }
     }
 }

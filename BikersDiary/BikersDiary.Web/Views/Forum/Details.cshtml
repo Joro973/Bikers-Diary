@@ -1,0 +1,25 @@
+﻿@using BikersDiary.ForumSystem.Data.Model
+@model BikersDiary.ForumSystem.Web.Models.Home.PostViewModel
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div class="col-sm-12">
+    <div class="panel">
+        <div class="panel-heading">
+            <h2>@Model.Title</h2>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <p>@Model.Content</p>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <small>@Model.AuthorEmail - @Model.PostedOn</small>
+        </div>
+    </div>
+    
+    @Html.Partial("_AddCommentPartial", new Comment { PostId = Model.Id })
+</div>
+@Html.Partial("_CommentPartial", Model)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -102,28 +103,57 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 .WithModel(post);
         }
 
-        //[TestMethod]
-        //public void Edit_ShouldRedirectToCorrectRoute_WhenNoPostIsFound()
-        //{
-        //    var user = new User();
-        //    var post = new Post()
-        //    {
-        //        Id = Guid.NewGuid(),
-        //        Title = "title",
-        //        Content = "test controller",
-        //        Author = user,
-        //        AuthorId = user.Id,
-        //        Identifier = 0,
-        //        Comments = new List<Comment>()
-        //    };
+        [TestMethod]
+        public void Edit_ShouldRedirectToCorrectRoute_WhenNoPostIsFound()
+        {
+            var user = new User();
+            var post = new Post()
+            {
+                Id = Guid.NewGuid(),
+                Title = "title",
+                Content = "test controller",
+                Author = user,
+                AuthorId = user.Id,
+                Comments = new List<Comment>()
+            };
 
-        //    postsServiceMock.Setup(m => m.Find(post.Id)).Returns((Post)null);
+            postsServiceMock.Setup(m => m.Find(post.Id)).Returns(post);
 
-        //    PostsController postsAdmin = new PostsController(postsServiceMock.Object, usersServiceMock.Object);
+            IQueryable<User> testUsers = Enumerable.Empty<User>().AsQueryable();
+            usersServiceMock.Setup(u => u.GetAll()).Returns(testUsers);
 
-        //    //Act
-        //    postsAdmin.WithCallTo(p => p.Edit(post.Id));
-        //}
+            PostsController postsAdmin = new PostsController(postsServiceMock.Object, usersServiceMock.Object);
+
+            //Act
+            postsAdmin.WithCallTo(p => p.Edit(post.Id))
+                .ShouldRenderDefaultView();
+        }
+
+        [TestMethod]
+        public void Edit_ShouldRedirectToCorrectRoute_WhenValidPost()
+        {
+            var user = new User();
+            var post = new Post()
+            {
+                Id = Guid.NewGuid(),
+                Title = "title",
+                Content = "test controller",
+                Author = user,
+                AuthorId = user.Id,
+                Comments = new List<Comment>()
+            };
+
+            postsServiceMock.Setup(m => m.Find(post.Id)).Returns(post);
+
+            IQueryable<User> testUsers = Enumerable.Empty<User>().AsQueryable();
+            usersServiceMock.Setup(u => u.GetAll()).Returns(testUsers);
+
+            PostsController postsAdmin = new PostsController(postsServiceMock.Object, usersServiceMock.Object);
+
+            //Act
+            postsAdmin.WithCallTo(p => p.Edit(post))
+                .ShouldRedirectToRoute("");
+        }
 
         [TestMethod]
         public void Delete_ShouldRenderCorrectViewWithCorrectModel()
@@ -149,27 +179,50 @@ namespace Bikers_Diary.Tests.Web.Controllers
                 .WithModel(post);
         }
 
-        //[TestMethod]
-        //public void Delete_ShouldRedirectToCorrectRoute()
-        //{
-        //    var user = new User();
-        //    var post = new Post()
-        //    {
-        //        Id = Guid.NewGuid(),
-        //        Title = "title",
-        //        Content = "test controller",
-        //        Author = user,
-        //        AuthorId = user.Id,
-        //        Identifier = 0,
-        //        Comments = new List<Comment>()
-        //    };
+        [TestMethod]
+        public void Delete_ShouldRedirectToCorrectRoute()
+        {
+            var user = new User();
+            var post = new Post()
+            {
+                Id = Guid.NewGuid(),
+                Title = "title",
+                Content = "test controller",
+                Author = user,
+                AuthorId = user.Id,
+                Comments = new List<Comment>()
+            };
 
-        //    postsServiceMock.Setup(m => m.Find(post.Id)).Returns(post);
+            postsServiceMock.Setup(m => m.Find(post.Id)).Returns(post);
+            postsServiceMock.Setup(m => m.RemovePost(post));
 
-        //    PostsController postsAdmin = new PostsController(postsServiceMock.Object, usersServiceMock.Object);
+            PostsController postsAdmin = new PostsController(postsServiceMock.Object, usersServiceMock.Object);
 
-        //    postsAdmin.WithCallTo(p => p.Delete(post.Id))
-        //        .ShouldRedirectToRoute("");
-        //}
+            postsAdmin.WithCallTo(p => p.Delete(post.Id))
+                .ShouldRenderDefaultView();
+        }
+
+        [TestMethod]
+        public void DeleteConfirmed_ShouldRedirectToCorrectRoute()
+        {
+            var user = new User();
+            var post = new Post()
+            {
+                Id = Guid.NewGuid(),
+                Title = "title",
+                Content = "test controller",
+                Author = user,
+                AuthorId = user.Id,
+                Comments = new List<Comment>()
+            };
+
+            postsServiceMock.Setup(m => m.Find(post.Id)).Returns(post);
+            postsServiceMock.Setup(m => m.RemovePost(post));
+
+            PostsController postsAdmin = new PostsController(postsServiceMock.Object, usersServiceMock.Object);
+
+            postsAdmin.WithCallTo(p => p.DeleteConfirmed(post.Id))
+                .ShouldRedirectToRoute("");
+        }
     }
 }

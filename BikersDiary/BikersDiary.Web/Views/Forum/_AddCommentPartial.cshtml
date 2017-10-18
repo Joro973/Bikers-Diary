@@ -1,0 +1,17 @@
+﻿@model BikersDiary.ForumSystem.Data.Model.Comment
+
+<div class="row">        
+    @using (Html.BeginForm("AddComment", "Forum", new { userName = this.User.Identity.Name,postId = Model.PostId }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        if (this.User.Identity.IsAuthenticated)
+        {
+            @Html.TextAreaFor(p => p.Content)
+            <input type="submit" class="btn btn-success" value="Add" id="addComment"/>
+        }
+        else
+        {
+            <input type="submit" class="btn btn-default" value="Add" id="addComment" style="pointer-events: none; cursor: default"/>
+        }
+    }
+</div>

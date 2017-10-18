@@ -1,0 +1,44 @@
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Services.dll.config
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Services.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Services.pdb
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.Model.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.Model.pdb
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.Model.dll.config
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.pdb
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.dll.config
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.xml
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.csproj.CoreCompileInputs.cache
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.dll
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.pdb
+C:\Users\Joro\Desktop\Stv\ASP.NET-MVC\resources\02. ASP.NET-MVC-Essentials\Demo\TelerikAcademy.ForumSystem.Services\bin\Debug\Bytes2you.Validation.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Services.dll.config
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Services.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Services.pdb
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\Bytes2you.Validation.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.Model.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.Model.pdb
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.Model.dll.config
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.pdb
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\TelerikAcademy.ForumSystem.Data.dll.config
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.xml
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.csproj.CoreCompileInputs.cache
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.dll
+C:\Users\Joro\Desktop\TA MVC project\BikersDiary\TelerikAcademy.ForumSystem.Services\obj\Debug\TelerikAcademy.ForumSystem.Services.pdb

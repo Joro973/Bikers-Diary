@@ -1,0 +1,12 @@
+﻿@model IEnumerable<BikersDiary.ForumSystem.Data.Model.Post>
+    
+<div class="panel">
+    @foreach (var post in Model)
+    {
+        <div class="col-md-12">
+            @Html.ActionLink(@post.Title, "Details", "Forum", new { id = post.Id }, new { @class = "" })
+            <p>@post.Content</p>
+            <p>@post.CreatedOn - @post.Author.Email</p>
+        </div>
+    }
+</div>
